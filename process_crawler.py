@@ -6,7 +6,7 @@ from mongo_cache import MongoCache
 from mongo_queue import MongoQueue
 from downloader import Downloader
 
-SLEEP_TIME = 1
+SLEEP_TIME = 2
 
 
 def threaded_crawler(seed_url, delay=5, cache=None, scrape_callback=None, user_agent='wswp', proxies=None, num_retries=1, max_threads=10, timeout=60):
